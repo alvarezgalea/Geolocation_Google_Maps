@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!--  ************************************************************ -->
+<!--  *    PROGRAMA DE GEOLOCALIZACION Y GEORREFERENCIACION      * -->
+<!--  *           Desarrollado por Miguel Alvarez                * -->
+<!--  ************************************************************ -->
+
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      .wrap { max-width: 75em; min-height: 40em; height:100%; width:100%; margin: 0 auto; padding-top: 2.5%;}
+      #map-canvas { height: 90%; }
+    </style>
+    
+    <!-- API DE GOOGLE MAPS -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly">
+    </script>
+    
+    <!-- Framework Codemaps Hecho por Miguel -->
+    <script type="text/javascript" src="./js/codemaps.js"> 
+    </script>
+  </head>
+  
+  <body>
+  
+    <h1 align="center">Geolocalización</h1>
+
+    <div class="wrap">
+      <div id="map-canvas"></div>
+    </div>
+
+  </body>
+</html>
